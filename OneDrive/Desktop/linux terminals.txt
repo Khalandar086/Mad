@@ -1,0 +1,103 @@
+8125847350 - naveen sir
+
+
+Topics - Ec2,S3,Vpc,Rds,IAM Role,Cloud Front
+
+
+Elastic Compute Cloud(Ec2):
+1.Ec2 is used For Creation of instances
+2.Instances is Nothing But Server
+
+Simple Storage Service (S3 Bucket):
+1.S3 Bucket is used for storing the data
+2.Each S3 Bucket can store an Unlimited amount of unstructed Data
+3.There is no Storage Limit in S3 Bucket
+
+Virtual Private Cloud (Vpc)
+1.Vpc is used for creation of private network resources
+2.Vpc is used for creation of Security Groups
+3.By these we can get ip address etc..so on
+
+
+Relational Database Service(Rds):
+1.Rds is used for creation of Database Objects in cloud
+2.Rds Supports Mysql,PSql,Oracle,Mssql,Ards
+
+
+Identity and Access Management(IAM Role):
+1.Iam Role is a Web Serive which is used to control the access to Aws Resources
+2.Resource is nothing But Ec2 instances such as S3 Bucket,Rds etc 
+
+
+
+
+
+
+Window terminal: (Supports Remote Desktop Connection)
+1.Rdp - Remote Desktop
+
+Linux Terminal :
+Linux will not support Rdp (Remote Desktop)
+Linux Will Support Terminals Like
+1.Putty
+2.Putty Gen
+3.Mobaxterm
+4.Git Bash
+
+And The Links To Download these Linux Terminals
+
+Putty – https://putty.org/
+Putty gen - https://www.dropbox.com/s/3a9cbd5akna8r7c/puttygen64.exe?dl=0 
+Mobaxterm - https://mobaxterm.mobatek.net/download.html
+Git bash - https://git-scm.com/download/win
+
+
+
+S3 bucket policy
+Bucket Policy : General Syntax
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::lop1/*"
+        }
+    ]
+}
+
+
+
+Linux Commands :
+1.whoami - To Find the user details
+2.pwd - To Find the present working Directory
+3.cd - Change Directory,it is used to change the working directory to current director
+4.ls - To list the Files and Folders 
+5.ls -a -  To list all the files and folders present in the directory
+6.ls -ltr - It shows creation date,time and permission of files and  Folders,when and what is created by user
+7.rm -r - To remove file or folder
+8.cal - It shows calender of the linux pc
+9.date - It shows date and time of the linux pc
+10.time - it predicts the time of the linux pc
+11. mv - To remame or move files from one folder to another folder mv is used
+12.cp - In order to copy a file to a Folder cp is used
+13.cd .. - To get back to previous directory cd .. is used
+14.touch - To create a File
+15.cat > Filename - We can read and write by using these command (enter + user data+ control D to save)
+16.cat Filename - To read a File when data is inserted
+17. vi - File creation and user read and write the data (i -insert , to save data - esc+!wq: + ctrlx) most preferable method
+18.nano - File creation and user read,write the data (ctrl+o to save+enter key to exit -ctrlx)
+17.touch .filename - To create Hidden files ( touch .filename)
+18.mkdir .directoryname - To create hidden directory ( mkdir .dirname)
+19.chmod - To change the permission of the file or folder
+
+
+
+
+
+
+
+
